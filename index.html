@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio - Akash Pande</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <div id="preloader"></div> <!-- Preloader Div -->
+    <header>
+        <h1>Akash Pande</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="resume.pdf" download class="download-btn">Download Resume</a></li>
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <span id="theme-icon">🌙</span>
+                </button>
+            </ul>
+
+        </nav>
+
+        <!-- Added Theme Toggle Button -->
+    </header>
+
+    <section class="hero" data-aos="fade-up" class="lazy-section">
+        <h2>Hi, I'm Akash Pande</h2>
+        <p>A passionate Web Developer and Future Mechanical Engineer</p>
+        <a href="#contact" class="cta-btn">Let's Connect</a>
+    </section>
+
+    <section id="about" data-aos="fade-right" class="lazy-section">
+        <h2>About Me</h2>
+        <p>I am a software engineer based in Bangalore, skilled in full-stack web development, digital art, and
+            mechanical design.
+            I'm passionate about transitioning into mechanical engineering and contributing meaningfully to the field.
+        </p>
+    </section>
+
+    <section id="skills" data-aos="fade-left" class="lazy-section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div>Web Development (MERN Stack)</div>
+            <div>React, Angular, Vue</div>
+            <div>Mechanical Design</div>
+            <div>3D Modeling (Blender)</div>
+            <div>Digital Art, Sketching, Painting</div>
+            <div>Problem Solving</div>
+        </div>
+    </section>
+
+    <section id="projects" data-aos="zoom-in" class="lazy-section">
+        <h2>Recent Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Visual Search for E-commerce (MERN + AI)</h3>
+                <p>Developed a visual product search tool using Vision Transformers, MongoDB Atlas, and a LLM agent for
+                    filtering results.</p>
+            </div>
+            <div class="project-item">
+                <h3>Geographical Components World Map SPA (React)</h3>
+                <p>Built an interactive single-page map application with toggleable layers like ocean currents, tectonic
+                    plates, and local winds.</p>
+            </div>
+            <div class="project-item">
+                <h3>Mechanical Component 3D Models</h3>
+                <p>Created precision 3D models using Blender for mechanical parts and assemblies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" data-aos="fade-right" class="lazy-section">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="path-to-your-art1.jpg" alt="Sketch 1">
+            <img src="path-to-your-art2.jpg" alt="Digital Art 2">
+            <img src="path-to-your-3dmodel1.jpg" alt="3D Model 1">
+        </div>
+    </section>
+
+    <section id="contact" data-aos="slide-up" class="lazy-section">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:akashpande1886@gmail.com">akashpande1886@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Akash Pande. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script> <!-- Include JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> <!-- Particles.js -->
+    <script src="particles-config.js"></script> <!-- Your particles config -->
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Animation duration
+            once: true      // Only animate once
+        });
+    </script>
+
+</body>
+</body>
+
+</html>
